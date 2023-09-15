@@ -23,6 +23,7 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
+  /* Mobile Styles */
 @media screen and (min-width: 320px) {
   .container {
     max-width: 320px;
@@ -736,6 +737,7 @@ body {
     margin-right: auto;
   }
 }
+
 @media screen and (min-width: 1158px) {
   .container {
     max-width: 1158px;
