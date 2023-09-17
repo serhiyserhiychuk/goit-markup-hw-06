@@ -437,6 +437,8 @@ body {
   /* Mobile Menu */
   .mobile-menu {
     position: fixed;
+    display: flex; 
+    flex-direction: column; 
     top: 0;
     left: 0;
     width: 100%;
@@ -447,6 +449,9 @@ body {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
+  }
+  .mobile-container {
+    margin-top: auto;
   }
   .mobile-close-button {
     width: 24px;
@@ -474,7 +479,6 @@ body {
     width: 150px;
     height: 200px;
     margin-right: auto;
-    margin-bottom: 50%;
   }
   .mobile-link-list {
     display: flex;
@@ -772,8 +776,8 @@ body {
   .footer-container {
     width: 584px;
   }
-  .footer-text {
-    margin-bottom: 72px;
+  .first-footer-container {
+      margin-bottom: 72px;
   }
 }
 @media screen and (min-width: 768px) {
